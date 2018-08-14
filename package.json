@@ -2,7 +2,9 @@
     "name": "riot",
     "description": "AWS IoT Shadow service controlled light fixture ",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "request": "^2.88.0"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flow.json",
